@@ -1,0 +1,15 @@
+[submodule "ayyagari"]
+	path = ayyagari
+	url = git@github.com:devangel77b/425sayyagari-lab9.1.git
+[submodule "baru"]
+	path = baru
+	url = git@github.com:devangel77b/425sbaru-lab9.1.git
+[submodule "cohen"]
+	path = cohen
+	url = git@github.com:devangel77b/425rcohen-lab9.1.git
+[submodule "edwards"]
+	path = edwards
+	url = git@github.com:devangel77b/425redwards-lab9.1.git
+[submodule "kumar"]
+	path = kumar
+	url = git@github.com:devangel77b/425akumar-lab9.1.git
