@@ -1,4 +1,4 @@
-\documentclass[letterpaper,11pt,twoside,electronic,headers=exceptpdf,papers=countpages,linkcolor=blue]{confproc}
+\documentclass[letterpaper,11pt,twoside,electronic,headers=exceptpdf,papers=countpages,linkcolor=blue,urlcolor=blue]{confproc}
 
 \renewcommand{\procpdfauthor}{Dennis Evangelista, Manalapan High School}
 \renewcommand{\procpdftitle}{Journal of Science \& Engineering}
@@ -24,111 +24,106 @@
 \pdfbookmark[0]{Preamble}{preamble}
 \pdfbookmark[1]{Cover}{cover}
 %\maketitle
-\index{Kilaru, Rishith}\includepdf[pages=1]{cover}
+\index{Thaker, Pooja}\includepdf[pages=1]{cover}
 \newpage
-Journal of Science Engineering (J S\&E) publishes high quality original research by promising students of science and engineering. 
+\noindent Journal of Science Engineering (J S\&E) publishes high quality original research, short articles, articles, letters, and reports by promising students of science and engineering.  Our impact factor is 20 and our $h$-index is 200.  J S\&E is a publication of the Freehold Regional High School District Press. 
+\vspace{2ex}
 
-% masthead here
-Editorial staff
+%\masthead here
+\noindent Our editorial office is located at:\\
 
-Editorial office
+\noindent Journal of Science \& Engineering\\20 Church Lane Room G201\\Englishtown, NJ 07726\\United States
+\vspace{2ex}
 
-Advisory board
+\noindent\small Editorial board
+\begin{itemize}
+\itemsep-0.5em
+\item[] E Carteya
+\item[] D Evangelista
+\item[] E Levin
+\item[] V Oleksy
+\item[] S Pepper
+\item[] J Philhower
+\item[] J Powers
+\item[] K Suchodolski
+\item[] H Vyas
+\end{itemize}
+
+\noindent\small Advisory board
+\begin{itemize}
+\itemsep-0.5em
+\item[] S Currie
+\item[] A Brusotti
+\item[] J Hein
+\item[] M Venuto
+\item[] B English
+\item[] J Komitas
+\end{itemize}
 
 \vfill
 
-Copytright \copyright\ 2024 The Journal of Science and Engineering.
+\noindent{Copyright \copyright\ 2024 The Journal of Science and Engineering. This work is licensed under CC BY-NC 4.0. To view a copy of this license, visit \url{https://creativecommons.org/licenses/by-nc/4.0/}}
+\vspace{2ex}
 
-Published by the {\scshape Freehold Regional High School District Press}.
+\noindent{\url{https://manalapan.frhsd.com/}}
+\vspace{2ex}
 
-s and e url here
-
-This work is licensed under CC BY-NC 4.0. To view a copy of this license, visit \url{https://creativecommons.org/licenses/by-nc/4.0/}
-
-library of congress titlepage information here
-
+\noindent{\url{https://sites.google.com/frhsd.com/seopenhouse/home}}
+\vspace{2ex}
 
 \otherpagestyle
-\addtocontents{toc}{Volume 1, Number 1, \today\bigskip\\}
-% The following hack is necessary to get Inside JS&E to be on back page 
-\begingroup
-\let\cleardoublepage=\clearpage
+\addtocontents{toc}{Volume 1, Number 2, December 11, 2024\bigskip\\}
 \tableofcontents
-\addtocontents{toc}{\emph{From the cover:} Newton's second law relates force, mass, and acceleration and is often written as $\sum\vec{F}=m\vec{a}$. In this special issue of Journal of Science \& Engineering, researchers considered the validity of Newton's second law. \emph{Cover image: Rishith Kilaru.}\bigskip\\}
-%Inside J S\&E here
-%\section*{Inside J S\&E}
-%\addcontentsline{toc}{section}{Inside J S\& E}
+\addtocontents{toc}{\emph{From the cover:} The electric potential, a scalar quantity, can be visualized by drawing equipotentials; isolines or level curves in which potential is a constant. The electric field, a vector field, points in a direction perpendicular to the equipotentials, down the gradient. These physics concepts might be important to consider when designing equipment that makes use of electric fields, such as in a low-cost gel electrophoresis rig. Here, researchers consider this problem. Electrophoresis is a technique where molecules can be sorted according to their charge and size. By characterizing the field and equipotentials within a prototype device, one could eventually predict the movement of various biomolecules of interest, such as fragments of DNA cut into parts at specific nucleotide sequences by restriction enzymes. \emph{Cover image: Pooja Thaker.}\bigskip\\}
+
+
+
+
+% Haiku here
 \vspace*{\fill}
+\addcontentsline{toc}{section}{Inside J S\&E\\\emph{Vikram Choudhury}}
 \begin{verse}
-String pulls cart down track\\
-Weight provides a downward force\\
-$\vec{F}$ equals $m$ $\vec{a}$
+Equipotential\\
+Square to the electric field\\
+Charges move without work
 \end{verse}
-\vspace{2ex}\raggedleft{Miguel Arenas, Callie Butash, Jake Chin, Kriti Malhotra,\\Grace Nealon, and Petra Rofman}\par
-\index{Arenas, Miguel}\index{Butash, Callie}\index{Chin, Jake}\index{Malhotra, Kriti}\index{Nealon, Grace}\index{Rofman, Petra}
+\vspace{2ex}{\raggedleft{Vikram Choudhury}\par}
+\index{Choudhury, Vikram}
 \vspace*{\fill}
-\endgroup
+
+
+
 
 \mainmatter
 \procpaper[%
-title={Testing Newton's second law in an accelerating system},
-author={Miguel Arenas, Callie Butash, Jake Chin, Kriti Malhotra, Grace Nealon, and Petra Rofman},
-index={\index{Arenas, Miguel}\index{Butash, Callie}\index{Chin, Jake}\index{Malhotra, Kriti}\index{Nealon, Grace}\index{Rofman, Petra}},
-]{/arenas/arenas}
+title={Computational mapping analysis of equipotential and electric field lines in gel electrophoresis rig},
+author={Saketh Ayyagari, Victoria Collemi, Krish Shah, and Kevin Tomazic},
+index={\index{Ayyagari, Saketh}\index{Collemi, Victoria}\index{Shah, Krish}\index{Tomazic, Kevin}},
+]{/ayyagari/ayyagari}
 
 \procpaper[%
-title={Verifying Newton's second law: the relationship between force and acceleration},
-author={Dia Avalur, Srilekha Dantu, Jophy Lin, and Anika Tokala},
-index={\index{Avalur, Dia}\index{Dantu, Srilekha}\index{Lin, Jophy}\index{Tokala, Anika}},
-]{/avalur/avalur}
+title={Demonstrating a method to create a low-cost electrophoresis rig solution},
+author={Srikar Baru, Vikram Choudhury, Pooja Thaker, Nathan Martin, and Danyal Ahmad},
+index={\index{Baru, Srikar}\index{Choudhury, Vikram}\index{Thaker, Pooja}\index{Martin, Nathan}\index{Ahmad, Danyal}},
+]{/baru/baru}
 
 \procpaper[%
-title={Investigating Newton's first law in a pulley system},
-author={Andrew Barone, Alexander Gut, Rishith Kilaru, and Shrikar Swami},
-index={\index{Barone, Andrew}\index{Gut, Alexander}\index{Kilaru, Rishith}\index{Swami, Shrikar}},
-]{/barone/barone}
+title={An experimental study on electric potential and equipotential regions},
+author={Ryan Cohen, Shreyas Musuku, Justin Hammer, Eshan Handique, Nirvik Patel, Dilan Gandhi, and Nathan Gershteyn},
+index={\index{Cohen, Ryan}\index{Musuku, Shreyas}\index{Hammer, Justin}\index{Handique, Eshan}\index{Patel, Nirvik}\index{Gandhi, Dilan}\index{Gershteyn, Nathan}},
+]{/cohen/cohen}
 
 \procpaper[%
-title={Experimental support for Newton's second law},
-author={Cole Canada, Stefano D'Agostino, Ethan Fuks, Jason Katz, Ryan Leung, and Edmund Lee},
-index={\index{Canada, Cole}\index{D'Agostino, Stefano}\index{Fuks, Ethan}\index{Katz, Jason}\index{Leung, Ryan}\index{Lee, Edmund}},
-]{/canada/canada}
+title={Electric field mapping for cost-effective gel electrophoresis applications},
+author={Ryan Edwards, Cameron Karabin, Chloe Li, Krish Patel, and Jake Schatz},
+index={\index{Edwards, Ryan}\index{Karabin, Cameron}\index{Li, Chloe}\index{Patel, Krish}\index{Schatz, Jake}},
+]{/edwards/edwards}
 
 \procpaper[%
-title={Newton's second law as demonstrated in a cart-pulley-mass system},
-author={Vasudevan Govardhanen, Gage Grant, Aidan Dumalagan, Tushaar Akula, Daivik Jajoo, Rohan Avalur, Adrit Sikdar, and Jake Cacciarelli},
-index={\index{Govardhanen, Vasudevan}\index{Grant, Gage}\index{Dumalagan, Aidan}\index{Akula, Tushaar}\index{Jajoo, Daivik}\index{Avalur, Rohan}\index{Sikdar, Adrit}\index{Cacciarelli, Jake}},
-]{/govardhanen/govardhanen}
-
-\procpaper[%
-title={Examining the relationship between the net force and acceleration in a pulley system},
-author={Siddharth Kedharnath, Samay Prabhu, Daniel Altman, and Joel D'Souza},
-index={\index{Kedharnath, Siddharth}\index{Prabhu, Samay}\index{Altman, Daniel}\index{D'Souza, Joel}},
-]{/kedharnath/kedharnath}
-
-\procpaper[%
-title={Relationship between Newton’s second law and acceleration, mass, and force},
-author={Nitika Kishore, Sameera Patil, Anton Lavrenov, and Connor Paskiewicz},
-index={\index{Kishore, Nitika}\index{Patil, Sameera}\index{Lavrenov, Anton}\index{Paskiewicz, Connor}},
-]{/kishore/kishore}
-
-\procpaper[%
-title={Testing Newton's second law with cart and mass},
-author={Sharone Krasnopolsky, Timur Neyir, and Brady Gorelczenko},
-index={\index{Krasnopolsky, Sharone}\index{Neyir, Timur}\index{Gorelczenko, Brady}},
-]{/krasnopolsky/krasnopolsky}
-
-\procpaper[%
-title={Experimental investigation of Newton's second law using a two-mass pulley system},
-author={Andrew Fox, Brandon Heller, Dev Parekh, Joshua Perle, and Clay Stevens},
-index={\index{Fox, Andrew}\index{Heller, Brandon}\index{Parekh, Dev}\index{Perle, Joshua}\index{Stevens, Clay}},
-]{/perle/perle}
-
-\procpaper[%
-title={Verifying $\sum\vec{F} = m\vec{a}$},
-author={Sagarika Yagnyeshwaran, Emily Chen, Andrew Kabatsky, Aleksandra Guimaraes, Vijita Ayyangar, and Aryanna Cetrulo},
-index={\index{Yagnyeshwaran, Sagarika}\index{Chen, Emily}\index{Kabatsky, Andrew}\index{Guimaraes, Aleksandra}\index{Ayyangar, Vijita}\index{Cetrulo, Aryanna}},
-]{/yagnyeshwaran/yagnyeshwaran}
+title={Mapping electric potential and electric field distribution in saltwater and investigating the effect of distance from source},
+author={Aadarsh Kumar, Steven Perkins, Nareshanjay Muthukumar, Henry Villase\~{n}or, and Anirudh Khanna},
+index={\index{Kumar, Aadarsh}\index{Perkins, Steven}\index{Muthukumar, Nareshanjay}\index{Villasenor, Henry}\index{Khanna, Anirudh}},
+]{/kumar/kumar}
 
 \backmatter
 %\bibliographystyle{plain}

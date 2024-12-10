@@ -1,2 +1,11 @@
 *~
 venv
+*.aux
+*.idx
+*.ilg
+*.ind
+*.log
+*.npc
+*.toc
+*.out
+*.synctex.gz
